@@ -1,0 +1,115 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Bhanu Prasad Kandula's Portfolio",
+  "url": [
+    "Home.html",
+    "Home.html#about",
+    "Home.html#projects",
+    "Home.html#career",
+    "Home.html#skills"
+  ],
+  "headline": "Bhanu Prasad Kandula",
+  "description": "I am an engineering graduate pursuing a Master's in Computer Science and have a strong background in software engineering.",
+  "about": {
+    "@type": "AboutPage",
+    "name": "Education and Experience",
+    "description": "Details of my education and experience",
+    "about": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Saint Louis University, St. Louis, MO ",
+        "description": " Masters in Software Engineering with GPA 3.48/4.0"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Institute of Aeronautical Engineering, Hyderabad, India",
+        "description": "Bachelor of Technology in Electronics & Communication Engineering with GPA 3.65/4.0"
+      }
+    ]
+  },
+  "award": [
+    "State level Gold Medal in National Map Quiz conducted by Indian National Cartographic Association – August 2013",
+    "Received ‘Young Genius‘ Award by achieving State 5th rank in Talent search examination conducted by Suchirindia Foundation, Hyderabad - 03-2013",
+    "Stood in 3rd place in inter college badminton competition conducted in 2018",
+    "Received ‘Young Genius‘ Award by achieving State 51st rank in Talent search examination conducted by Suchirindia Foundation, Hyderabad - 03-2014",
+    "Secured 3rd place in District level Essay competition conducted by Telangana State Police, Hyderabad - 10-2014"
+  ],
+  "mainEntity": [
+    {
+      "@type": "ItemList",
+      "name": "Skills",
+      "itemListElement": [
+        "Languages: English, Hindi, Telugu",
+        "Software: C, Python, .Net, C#, Angular, React",
+        "Design and Simulation Platforms: Xilinx, Vivado, MATLAB, VHDL",
+        "Ticketing Tools: JIRA",
+        "Version Control Systems: GitHub",
+        "Databases: SQL, MongoDB",
+        "Development Methodologies: Agile, Scrum"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Projects",
+      "itemListElement": [
+        {
+          "@type": "CreativeWork",
+          "name": "People’s Doctor Application",
+          "description": "Developed an application that helps in doctor-patient interaction virtually, provides health tips and information for users. The app includes features such as booking appointments with doctors and choosing different specialties to promote better health management.",
+          "url": "https://github.com/BhanuKandula5030/People-s-Doctor"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Indian Flavor Scape Restaurant Application",
+          "description": "Designed and built a website for a restaurant, showcasing Indian cuisine. The application helps customers to order dishes in the restaurant, and admins can respond through the application for responses and the status of orders. This also includes menus, photo galleries, and contact information for the restaurant.",
+          "url": "https://git.cs.slu.edu/group_3/indian-flavor-scape"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Word Quest",
+          "description": "A Java-based word guessing game application using Gradle, which sounds similar to Wordle but is a different version of it.",
+          "url": "https://git.cs.slu.edu/courses/summer23/CSCI_2300_5003/groupc-akt/-/tree/Beta"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Experience",
+      "itemListElement": [
+        {
+          "@type": "JobPosting",
+          "title": "Junior Software Engineer",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Cognizant Solutions, Coimbatore, India"
+          },
+          "datePosted": "Feb 2021",
+          "validThrough": "Jul 2022",
+          "responsibilities": [
+            "Collaborated closely with clients, Business Developers, and project managers to identify solutions for application-related issues and project requirements.",
+            "Managed and provided support for five applications.",
+            "Wrote SQL queries to extract data and generate reports to meet business needs.",
+            "Created and deployed scripts for automating manual tasks, improving efficiency.",
+            "Engaged with business stakeholders to gather requirements, provided regular status updates, and demonstrated automation solutions."
+          ]
+        },
+        {
+          "@type": "JobPosting",
+          "title": "Intern",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Cognizant Solutions, Coimbatore, India"
+          },
+          "datePosted": "Feb 2021",
+          "validThrough": "Jun 2021",
+          "responsibilities": [
+            "Developed an online mobile store management application.",
+            "Collaborated closely with the application development team.",
+            "Enhanced skills in both front-end and back-end application development during the internship."
+          ]
+        }
+      ]
+    }
+  ]
+}
