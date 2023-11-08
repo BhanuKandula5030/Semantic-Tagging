@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Bhanu Prasad Kandula</title>
+    <link rel="stylesheet" href="Homecss.css">
+</head>
+<body prefix="schema: http://schema.org/">
+    <nav typeof="schema:WebPage">
+        <h1 property="schema:name">Bhanu Prasad Kandula's Portfolio</h1>
+        <ul>
+            <li><a href="Home.html" property="schema:url">Home</a></li>
+            <li><a href="Home.html#about" property="schema:url">About</a></li>
+            <li><a href="Home.html#projects" property="schema:url">Projects</a></li>
+            <li><a href="Home.html#career" property="schema:url">Career</a></li>
+        </ul>
+    </nav>
+
+    <div class="background-image">
+        <div class="text">
+            <h4>Hello it's me</h4>
+            <h1 property="schema:headline">Bhanu Prasad Kandula</h1>
+            <p property="schema:description">
+                I am an engineering graduate pursuing Master's in Computer Science and have a strong background in software engineering.
+            </p>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <section typeof="schema:AboutPage">
+            <h2 property="schema:name">Education</h2>
+            <article typeof="schema:EducationalEvent">
+                <strong property="schema:location">Saint Louis University, St. Louis, MO</strong><br>
+                <span property="schema:description">Masters in Computer Science, Major in Software Engineering</span><br>
+                <span property="schema:description">GPA: 3.48/4.0</span><br>
+                <span property="schema:startDate">Aug 2022</span> - <span property="schema:endDate">May 2024</span>
+            </article>
+            <article typeof="schema:EducationalEvent">
+                <strong property="schema:location">Institute of Aeronautical Engineering, Hyderabad, India</strong><br>
+                <span property="schema:description">Bachelor of Technology in Electronics & Communication Engineering</span><br>
+                <span property="schema:description">GPA: 3.65/4.0</span><br>
+                <span property="schema:startDate">Jul 2017</span> - <span property="schema:endDate">June 2021</span>
+            </article>
+        </section>
+        <section class="skills" typeof="schema:Skill">
+            <h2 property="schema:name">Skills</h2>
+            <p>
+                <strong property="schema:name">Languages:</strong> English, Hindi, Telugu<br>
+                <strong property="schema:name">Software:</strong> C, Python, .Net, C#, Angular, React<br>
+                <strong property="schema:name">Design and Simulation Platforms:</strong> Xilinx, Vivado, MATLAB, VHDL<br>
+                <strong property="schema:name">Ticketing Tools:</strong> JIRA<br>
+                <strong property="schema:name">Version Control Systems:</strong> GitHub<br>
+                <strong property="schema:name">Databases:</strong> SQL, MongoDB<br>
+                <strong property="schema:name">Development Methodologies:</strong> Agile, Scrum
+            </p>
+        </section>
+        <section class="Awards" typeof="schema:CreativeWork">
+            <h2 property="schema:name">Awards and Achievements</h2>
+            <ul>
+                <li>State level Gold Medal in National Map Quiz conducted by Indian National Cartographic Association – August 2013</li>
+                <li>Received ‘Young Genius‘ Award by achieving State 5th rank in Talent search examination conducted by Suchirindia Foundation, Hyderabad - 03-2013.</li>
+                <li>Stood in 3rd place in inter college badminton competition conducted in 2018.</li>
+                <li>Received ‘Young Genius‘ Award by achieving State 51st rank in Talent search examination conducted by Suchirindia Foundation, Hyderabad - 03-2014.</li>
+                <li>Secured 3rd place in District level Essay competition conducted by Telangana State Police, Hyderabad - 10-2014</li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="project" id="projects" typeof="schema:WebPage">
+        <div typeof="schema:CreativeWork">
+            <h2 property="schema:name">People’s Doctor Application</h2>
+            <img src="./images/doctor-patient.jpg" alt="Doctor-Patient image">
+            <p property="schema:description">
+                Developed an application that helps in doctor-patient interaction virtually, provides health tips and information for users. The app includes features such as booking appointments with doctors and choosing different specialties to promote better health management.
+            </p>
+            <a href="https://github.com/BhanuKandula5030/People-s-Doctor" target="_blank" property="schema:url">Wanna Check out the project in Git? Click here</a>
+        </div>
+
+        <div typeof="schema:CreativeWork">
+            <h2 property="schema:name">Indian Flavor Scape Restaurant Application</h2>
+            <img src="./images/restaurant.jpg" alt="Indian Flavor Scape logo with dishes">
+            <p property="schema:description">
+                Designed and built a website for a restaurant, showcasing Indian cuisine. The application helps customers to order dishes in the restaurant, and admins can respond through the application for responses and the status of orders. This also includes menus, photo galleries, and contact information for the restaurant.
+            </p>
+            <a href="https://git.cs.slu.edu/group_3/indian-flavor-scape" target="_blank" property="schema:url">Wanna Check out the project in Git? Click here</a>
+        </div>
+
+        <div typeof="schema:CreativeWork">
+            <h2 property="schema:name">Word Quest</h2>
+            <img src="./images/wordquest.png" alt="Word Quest image">
+            <p property="schema:description">
+                A Java-based word guessing game application using Gradle, which sounds similar to Wordle but is a different version of it.
+            </p>
+            <a href="https://git.cs.slu.edu/courses/summer23/CSCI_2300_5003/groupc-akt/-/tree/Beta" target="_blank" property="schema:url">Wanna Check out the project in Git? Click here</a>
+        </div>
+    </section>
+
+    <div class="container" id="career" typeof="schema:AboutPage">
+        <section typeof="schema:AboutPage">
+            <h2 property="schema:name">Experience</h2>
+            <article class="fade-in style" typeof="schema:JobPosting">
+                <h3 property="schema:title">Junior Software Engineer</h3>
+                <p class="job-info">
+                    <strong property="schema:hiringOrganization">Cognizant Solutions, Coimbatore, India</strong> | <span property="schema:startDate">Feb 2021</span> - <span property="schema:endDate">Jul 2022</span>
+                </p>
+                <ul property="schema:responsibilities">
+                    <li>Collaborated closely with clients, Business Developers, and project managers to identify solutions for application-related issues and project requirements.</li>
+                    <li>Managed and provided support for five applications.</li>
+                    <li>Wrote SQL queries to extract data and generate reports to meet business needs.</li>
+                    <li>Created and deployed scripts for automating manual tasks, improving efficiency.</li>
+                    <li>Engaged with business stakeholders to gather requirements, provided regular status updates, and demonstrated automation solutions.</li>
+                </ul>
+            </article>
+
+            <article class="fade-in style" typeof="schema:JobPosting">
+                <h3 property="schema:title">Intern</h3>
+                <p class="job-info">
+                    <strong property="schema:hiringOrganization">Cognizant Solutions, Coimbatore, India</strong> | <span property="schema:startDate">Feb 2021</span> - <span property="schema:endDate">Jun 2021</span>
+                </p>
+                <ul property="schema:responsibilities">
+                    <li>Developed an online mobile store management application.</li>
+                    <li>Collaborated closely with the application development team.</li>
+                    <li>Enhanced skills in both front-end and back-end application development during the internship.</li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Bhanu Prasad Kandula
+    </footer>
+</body>
+</html>
